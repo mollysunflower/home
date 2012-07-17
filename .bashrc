@@ -11,7 +11,7 @@ export HISTSIZE=10000
 export CLASSPATH="."
 
 # prompt
-export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w>\[\033[00m\] "
+export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;31m\]\w>\[\033[00m\] "
 
 # safe mode for rm, cp, and mv
 alias rm='rm -i'
