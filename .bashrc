@@ -13,19 +13,19 @@ export CLASSPATH="."
 # prompt
 export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;31m\]\w>\[\033[00m\] "
 
-# safe mode for rm, cp, and mv
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
+# ls colors
+export CLICOLOR=1
+export LSCOLORS=BxDxFxFxGxFxFxBxBxGxGx
 
 # ls aliases
-export CLICOLOR=1
 alias la='ls -lha'
 alias ll='ls -lh'
 alias lh='ls -lh'
 
-# ssh alias
-alias ssh="ssh -X -Y"
+# make rm, cp, mv safe
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
 
 # tar alias
 alias tar="COPYFILE_DISABLE=true tar"
