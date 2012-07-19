@@ -1,5 +1,4 @@
 # path
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=$PATH:"/android/android-ndk-r8/"
 export PATH=$PATH:"/android/android-sdk-mac_86/platform-tools/"
 export PATH=$PATH:"/android/android-sdk-mac_86/tools/"
@@ -34,5 +33,3 @@ alias tar="COPYFILE_DISABLE=true tar"
 alias du="du -h"
 alias df="df -h"
 
-# emacs
-alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
