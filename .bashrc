@@ -1,4 +1,5 @@
 # path
+export PATH="~/bin/":$PATH
 export PATH=$PATH:"/android/android-ndk-r8/"
 export PATH=$PATH:"/android/android-sdk-mac_86/platform-tools/"
 export PATH=$PATH:"/android/android-sdk-mac_86/tools/"
