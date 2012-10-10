@@ -34,3 +34,5 @@ alias tar="COPYFILE_DISABLE=true tar"
 alias du="du -h"
 alias df="df -h"
 
+# emacs
+alias ee="emacsclient -t -s"
