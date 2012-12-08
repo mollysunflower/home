@@ -3,6 +3,7 @@ export PATH="~/bin/":$PATH
 export PATH=$PATH:"/android/android-ndk-r8/"
 export PATH=$PATH:"/android/android-sdk-mac_86/platform-tools/"
 export PATH=$PATH:"/android/android-sdk-mac_86/tools/"
+export PATH=$PATH:"~/backflip/dev/thirdparty/perforce/latest/bin/"
 
 # history
 export HISTSIZE=10000
