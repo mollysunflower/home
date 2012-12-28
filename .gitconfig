@@ -1,0 +1,13 @@
+[user]
+name = it3ration
+email = it3ration
+
+[credential]
+helper = osxkeychain
+
+[color]
+diff = always
+
+[alias]
+ci = commit
+st = status
