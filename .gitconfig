@@ -11,3 +11,5 @@ diff = always
 [alias]
 ci = commit
 st = status
+[core]
+	editor = emacs
