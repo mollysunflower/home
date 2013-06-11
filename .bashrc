@@ -1,9 +1,16 @@
 # path
-export PATH="~/bin/":$PATH
-export PATH=$PATH:"/android/android-ndk-r8/"
-export PATH=$PATH:"/android/android-sdk-mac_86/platform-tools/"
-export PATH=$PATH:"/android/android-sdk-mac_86/tools/"
-export PATH=$PATH:"~/backflip/dev/thirdparty/perforce/latest/bin/"
+export PATH="~/bin"
+export PATH=$PATH:"/usr/local/bin"
+export PATH=$PATH:"/usr/local/sbin"
+export PATH=$PATH:"/usr/bin"
+export PATH=$PATH:"/usr/sbin"
+export PATH=$PATH:"/bin"
+export PATH=$PATH:"/sbin"
+export PATH=$PATH:"/opt/X11/bin"
+export PATH=$PATH:"/android/android-ndk-r8"
+export PATH=$PATH:"/android/android-sdk-mac_86/platform-tools"
+export PATH=$PATH:"/android/android-sdk-mac_86/tools"
+export PATH=$PATH:"~/backflip/dev/thirdparty/perforce/latest/bin"
 
 # history
 export HISTSIZE=10000
