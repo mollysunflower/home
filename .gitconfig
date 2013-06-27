@@ -11,6 +11,9 @@ diff = always
 [alias]
 ci = commit
 st = status
+co = checkout
+br = branch
+glog = log --graph
 
 [core]
 editor = emacs
