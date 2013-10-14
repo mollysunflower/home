@@ -46,3 +46,6 @@ alias df="df -h"
 
 # emacs
 alias ee="emacsclient -t -s"
+
+# perforce
+export P4CONFIG=.p4settings
