@@ -23,6 +23,7 @@ export PS1="\[\033[01;33m\][\[\033[00m\]\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[
 
 # ls colors
 export CLICOLOR=1
+export CLICOLOR_FORCE=1
 export LSCOLORS=BxDxFxFxGxFxFxBxBxGxGx
 
 # ls aliases
@@ -41,6 +42,20 @@ alias tar="COPYFILE_DISABLE=true tar"
 # du/df
 alias du="du -h"
 alias df="df -h"
+
+# more / less
+alias more="more -R"
+alias less="less -R"
+
+# ack
+alias ack="ack --color --group"
+
+# grep
+alias grep="grep --color=always"
+alias egrep="egrep --color=always"
+
+# mercurial
+alias hg="hg --color=always"
 
 # emacs
 alias ee="emacsclient -t -s"
