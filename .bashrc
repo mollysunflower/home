@@ -54,9 +54,6 @@ alias ack="ack --color --group"
 alias grep="grep --color=always"
 alias egrep="egrep --color=always"
 
-# mercurial
-alias hg="hg --color=always"
-
 # emacs
 alias ee="emacsclient -t -s"
 
