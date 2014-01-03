@@ -55,6 +55,7 @@ alias grep="grep --color=always"
 alias egrep="egrep --color=always"
 
 # emacs
+alias emacs="TERM=xterm-256color emacs"
 alias ee="emacsclient -t -s"
 
 # perforce
