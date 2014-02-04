@@ -50,6 +50,9 @@ alias less="less -R"
 # ack
 alias ack="ack --color --group"
 
+# ag
+alias ag="ag -f"
+
 # grep
 alias grep="grep --color=always"
 alias egrep="egrep --color=always"
