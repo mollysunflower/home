@@ -13,7 +13,7 @@ ci = commit
 st = status
 co = checkout
 br = branch
-glog = log --graph
+lg = log --graph --color --pretty=format:'%C(bold red)%h%C(reset) %s (%C(green)%cr%C(reset)) %C(magenta)%an%C(reset)%C(yellow)%d%C(reset)'
 
 [core]
 editor = emacs
