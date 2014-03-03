@@ -51,7 +51,7 @@ alias less="less -R"
 alias ack="ack --color --group"
 
 # ag
-alias ag="ag -f"
+alias ag="ag --pager 'less -R' -f"
 
 # grep
 alias grep="grep --color=always"
