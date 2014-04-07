@@ -7,10 +7,11 @@ export PATH=$PATH:"/usr/sbin"
 export PATH=$PATH:"/bin"
 export PATH=$PATH:"/sbin"
 export PATH=$PATH:"/opt/X11/bin"
-export PATH=$PATH:"/android/android-ndk-r8"
-export PATH=$PATH:"/android/android-sdk-mac_86/platform-tools"
-export PATH=$PATH:"/android/android-sdk-mac_86/tools"
 export PATH=$PATH:"~/backflip/dev/thirdparty/perforce/latest/bin"
+
+# other exports
+export ANDROID_SDK=/usr/local/opt/android-sdk
+export ANDROID_NDK=/usr/local/opt/android-ndk
 
 # history
 export HISTSIZE=10000
