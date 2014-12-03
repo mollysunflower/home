@@ -64,3 +64,4 @@ alias ee="emacsclient -t -s"
 
 # perforce
 export P4CONFIG=.p4settings
+export P4IGNORE=.p4ignore
