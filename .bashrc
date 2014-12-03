@@ -1,5 +1,10 @@
+# java
+export CLASSPATH="."
+export JAVA_HOME=`/usr/libexec/java_home`
+
 # path
 export PATH="~/bin"
+export PATH=$PATH:$JAVA_HOME/bin
 export PATH=$PATH:"/usr/local/bin"
 export PATH=$PATH:"/usr/local/sbin"
 export PATH=$PATH:"/usr/bin"
@@ -15,9 +20,6 @@ export ANDROID_NDK=/usr/local/opt/android-ndk
 
 # history
 export HISTSIZE=10000
-
-# java
-export CLASSPATH="."
 
 # prompt
 export PS1="\[\033[01;33m\][\[\033[00m\]\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[01;31m\]\w\[\033[00m\]\[\033[01;33m\]]\[\033[00m\]\n\[\033[01;31m\]$ \[\033[00m\]"
