@@ -30,7 +30,7 @@ export CLICOLOR=1
 export LSCOLORS=BxDxFxFxGxFxFxBxBxGxGx
 
 # ls aliases
-alias ls='ls -G'
+alias ls='CLICOLOR_FORCE=1 ls'
 alias la='ls -lha'
 alias ll='ls -lha'
 
