@@ -6,7 +6,8 @@ email = it3ration
 helper = osxkeychain
 
 [color]
-diff = always
+ui = true
+diff = true
 
 [alias]
 ci = commit
