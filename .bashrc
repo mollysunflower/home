@@ -33,7 +33,6 @@ export LSCOLORS=BxDxFxFxGxFxFxBxBxGxGx
 # ls aliases
 alias la='ls -lha'
 alias ll='ls -lh'
-alias lh='ls -lh'
 
 # make rm, cp, mv safe
 alias rm='rm -i'
@@ -63,7 +62,6 @@ alias egrep="egrep --color=always"
 
 # emacs
 alias emacs="TERM=xterm-256color emacs"
-alias ee="emacsclient -t -s"
 
 # perforce
 export P4CONFIG=.p4settings
