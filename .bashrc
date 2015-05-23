@@ -60,9 +60,6 @@ alias ag="ag --pager 'less -R' -f"
 alias grep="grep --color=always"
 alias egrep="egrep --color=always"
 
-# emacs
-alias emacs="TERM=xterm-256color emacs"
-
 # perforce
 export P4CONFIG=.p4settings
 export P4IGNORE=.p4ignore
