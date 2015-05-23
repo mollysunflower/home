@@ -20,7 +20,7 @@ export ANDROID_SDK=/usr/local/opt/android-sdk
 export ANDROID_NDK=/usr/local/opt/android-ndk
 
 # history
-export HISTSIZE=10000
+export HISTSIZE=100000
 
 # prompt
 export PS1="\[\033[01;33m\][\[\033[00m\]\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[01;31m\]\w\[\033[00m\]\[\033[01;33m\]]\[\033[00m\]\n\[\033[01;31m\]$ \[\033[00m\]"
