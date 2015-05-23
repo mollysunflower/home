@@ -27,12 +27,12 @@ export PS1="\[\033[01;33m\][\[\033[00m\]\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[
 
 # ls colors
 export CLICOLOR=1
-export CLICOLOR_FORCE=1
 export LSCOLORS=BxDxFxFxGxFxFxBxBxGxGx
 
 # ls aliases
+alias ls='ls -G'
 alias la='ls -lha'
-alias ll='ls -lh'
+alias ll='ls -lha'
 
 # make rm, cp, mv safe
 alias rm='rm -i'
