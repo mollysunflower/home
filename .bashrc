@@ -1,6 +1,6 @@
-# java
-export CLASSPATH="."
-export JAVA_HOME=`/usr/libexec/java_home`
+# java - disabled for now
+# export CLASSPATH="."
+# export JAVA_HOME=`/usr/libexec/java_home`
 
 # path
 export PATH="~/bin"
