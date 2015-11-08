@@ -60,3 +60,6 @@ alias egrep="egrep --color=always"
 # perforce
 export P4CONFIG=.p4settings
 export P4IGNORE=.p4ignore
+
+# start in ~ please
+cd ~
