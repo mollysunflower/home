@@ -1,23 +1,11 @@
-# java - disabled for now
-# export CLASSPATH="."
-# export JAVA_HOME=`/usr/libexec/java_home`
-
 # path
 export PATH="~/bin"
-export PATH=$PATH:$JAVA_HOME/bin
 export PATH=$PATH:"/usr/local/bin"
 export PATH=$PATH:"/usr/local/sbin"
 export PATH=$PATH:"/usr/bin"
-export PATH=$PATH:"/usr/texbin"
 export PATH=$PATH:"/usr/sbin"
 export PATH=$PATH:"/bin"
 export PATH=$PATH:"/sbin"
-export PATH=$PATH:"/opt/X11/bin"
-export PATH=$PATH:"~/backflip/dev/thirdparty/perforce/latest/bin"
-
-# other exports
-export ANDROID_SDK=/usr/local/opt/android-sdk
-export ANDROID_NDK=/usr/local/opt/android-ndk
 
 # history
 export HISTSIZE=100000
