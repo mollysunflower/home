@@ -6,7 +6,7 @@ export PATH=$PATH:"/usr/bin"
 export PATH=$PATH:"/usr/sbin"
 export PATH=$PATH:"/bin"
 export PATH=$PATH:"/sbin"
-export PATH=$PATH:"node_modules/.bin"
+export PATH=$PATH:"./node_modules/.bin"
 
 # history
 export HISTSIZE=100000
