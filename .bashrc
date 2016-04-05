@@ -48,6 +48,3 @@ alias egrep="egrep --color=always"
 
 # start in ~ please
 cd ~
-
-# shapeshift
-alias geth="geth --datadir ~/crypto/ethereum/"
