@@ -14,12 +14,39 @@ export HISTSIZE=100000
 # prompt
 export PS1="\[\033[01;33m\][\[\033[00m\]\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[01;31m\]\w\[\033[00m\]\[\033[01;33m\]]\[\033[00m\]\n\[\033[01;31m\]$ \[\033[00m\]"
 
-# ls colors
-export CLICOLOR=1
-export LSCOLORS=BxDxFxFxGxFxFxBxBxGxGx
+# ls colors / aliases
+if [ "$(uname -s)" = "Darwin" ]; then
+    export CLICOLOR=1
+    export LSCOLORS=BxDxFxFxGxFxFxFxFxFxFx
+    alias ls='CLICOLOR_FORCE=1 ls'
+elif [ "$(uname -s)" = "Linux" ]; then
+    export LS_COLORS="di=1;31:ln=1;93:so=1;35:pi=1;35:ex=1;36:bd=1;35:cd=1;35:su=1;35:sg=1;35:tw=1;35:ow=1;35:"
+    alias ls="ls --color"
+fi
 
-# ls aliases
-alias ls='CLICOLOR_FORCE=1 ls'
+# directory = Bx
+# sym link = Dx
+# socket = Fx
+# pipe = Fx
+# executable = Gx
+# block device = Fx
+# character device = Fx
+# exe w/ setuid = Fx
+# exe w/ setguid = Fx
+# dir with stick bit = Fx
+# dir w/o stick bit = Fx
+
+# A = dark grey
+# B = bold red
+# C = bold green
+# D = yellow
+# E = bold blue
+# F = magenta
+# G = cyan
+# H = white
+# x = default
+
+# alias ls='CLICOLOR_FORCE=1 ls'
 alias la='ls -lha'
 alias ll='ls -lha'
 
