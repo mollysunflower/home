@@ -60,3 +60,6 @@ alias egrep="egrep --color=always"
 
 # start in ~ please
 cd ~
+
+# The go path.
+export GOPATH=$HOME/go
