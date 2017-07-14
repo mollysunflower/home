@@ -63,3 +63,6 @@ cd ~
 
 # The go path.
 export GOPATH=$HOME/go
+
+# fzf
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
