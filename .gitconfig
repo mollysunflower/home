@@ -21,3 +21,7 @@ editor = emacs
 
 [push]
 default = simple
+
+# Use ssh instead of https.
+[url "git@github.com:"]
+insteadOf = https://github.com/
