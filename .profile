@@ -1,5 +1,5 @@
 if [ "$BASH" ]; then
-    if [ -f ~/.home ]; then
-        . ~/.home
+    if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
     fi
 fi
