@@ -9,6 +9,9 @@ helper = osxkeychain
 ui = true
 diff = true
 
+[color "grep"]
+match = black yellow bold
+
 [alias]
 ci = commit
 st = status
