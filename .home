@@ -6,6 +6,7 @@ export PATH=$PATH:"/usr/bin"
 export PATH=$PATH:"/usr/sbin"
 export PATH=$PATH:"/bin"
 export PATH=$PATH:"/sbin"
+export PATH=$PATH:"/usr/local/texlive/2018/bin/x86_64-darwin"
 
 # history
 export HISTSIZE=100000
