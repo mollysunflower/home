@@ -51,9 +51,6 @@ alias df="df -h"
 alias more="less -R"
 alias less="less -R"
 
-# ag
-alias ag="ag -f --color"
-
 # grep
 alias grep="grep --color=always"
 
