@@ -1,3 +1,3 @@
 # home
 
-This repository contains some common settings files in my home directory.
+This repository contains settings files for my home directory.
