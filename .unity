@@ -1,2 +1,0 @@
-export PATH=$PATH:"/usr/local/share/dotnet"
-export PATH=$PATH:"/Library/Frameworks/Mono.framework/Versions/Current/bin"
