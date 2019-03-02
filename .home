@@ -56,7 +56,6 @@ alias ag="ag -f --color"
 
 # grep
 alias grep="grep --color=always"
-alias egrep="egrep --color=always"
 
 # emacs daemon / client
 alias ed="emacs --daemon"
