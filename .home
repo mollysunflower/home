@@ -84,6 +84,9 @@ fi
 # fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+# emacs
+alias emacs="emacs -nw"
+
 # emacs daemon / client
 alias ed="emacs --daemon"
 alias ee="emacsclient -t"
