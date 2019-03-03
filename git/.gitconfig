@@ -25,13 +25,9 @@ editor = emacs
 [push]
 default = simple
 
-# Use ssh instead of https.
-[url "git@github.com:"]
-insteadOf = https://github.com/
-
 # Settings for lfs.
 [filter "lfs"]
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
+required = true
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
