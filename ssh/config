@@ -1,15 +1,4 @@
-# home
-Host github.com
-   HostName github.com
-   User git
-   UseKeychain yes
-   AddKeysToAgent yes
-   IdentityFile ~/.ssh/id_rsa_home
-
-# work
-Host github.com-gormulent   
-   HostName github.com
-   User git
-   UseKeychain yes
-   AddKeysToAgent yes
-   IdentityFile ~/.ssh/id_rsa_work
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
