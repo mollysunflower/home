@@ -21,6 +21,7 @@ lg = log --graph --color --pretty=format:'%C(bold red)%h%C(reset) %s (%C(green)%
 
 [core]
 editor = emacs
+autocrlf = input
 
 [push]
 default = simple
