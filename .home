@@ -46,12 +46,6 @@ elif [ "$(uname -s)" = "Linux" ]; then
     alias ls="ls --color=always"
 fi
 
-# Handle color codes properly in more / less.
-if [ "$(uname -s)" = "Darwin" ]; then
-    alias more="less -R"
-    alias less="less -R"
-fi
-
 # Make rm, cp, mv safe.
 alias rm="rm -i"
 alias cp="cp -i"
@@ -64,6 +58,10 @@ alias ll="ls -lha"
 # du / df
 alias du="du -h"
 alias df="df -h"
+
+# more / less
+alias more="less -R"
+alias less="less -R"
 
 # grep
 alias grep="grep --color=always"
