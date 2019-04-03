@@ -16,6 +16,7 @@ export PATH=$PATH:"/sbin"
 # Setup platform-specific paths.
 if [ "$(uname -s)" = "Darwin" ]; then
     export PATH=$PATH:"/usr/local/texlive/2018/bin/x86_64-darwin"
+    export PATH=$PATH:"/usr/local/share/dotnet"
 elif [ "$(uname -s)" = "Linux" ]; then
     export PATH=$PATH:"/snap/bin"
 fi
